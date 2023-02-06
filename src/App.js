@@ -3,7 +3,7 @@ import React, {useEffect, useRef, useState} from 'react'
 import "./App.css";
 
 const words = () => 'hello world tesla data science python java swift react kotlin angular bitcoin ethirium pokemon spacex html css fan'.split(' ')
-.sort(() => Math.random() > 0.5 ? 1 : -1)
+// .sort(() => Math.random() > 0.5 ? 1 : -1)
 
 function Word(props){
   const { text ,active,correct} = props
